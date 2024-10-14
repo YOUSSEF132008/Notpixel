@@ -20,17 +20,20 @@ import subprocess
 import json
 
 def print_welcome_message():
-    
-    print (f"""{render(f'YOUSEF', colors=['green', 'yellow'], align='center')}""")
-    
-    print("""\033[1;37m
-    \33[0;41m NOTBIXEL BOT  👿  \033[0;92m """)
-    
-    print("""\033[1;37m
-    \33[0;42m Developer : @YOUSSEFSOBHY13 ☠️ \033[0;92m """)
-    
-    print("""\033[1;37m
-    \33[0;43m  Developer channel : https://t.me/kingelnet 👻 \033[0;92m """)
+print(f"""
+{render('YOUSEF', colors=['green', 'yellow'], align='center')}
+\033[1;37m
+╔━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╗                    
+║\33[0;41m[Search for my channel On Telegram : @kingelnet ]\033[0;92m║
+╚━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╝              
+\033[1;37m
+\33[0;41m Blum BOT  👿  \033[0;92m 
+\033[1;37m
+\33[0;42m Developer : @YOUSSEFSOBHY13 ☠️ \033[0;92m
+\033[1;37m
+\33[0;43m  Developer channel : https://t.me/kingelnet 👻 \033[0;92m """)
+time.sleep(3)
+os.system('clear')
  
  
 def check_user(query):
